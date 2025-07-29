@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .slot-machine {
+    @apply bg-gradient-to-b from-yellow-400 to-yellow-600 border-4 border-yellow-700 rounded-xl shadow-2xl;
+  }
+  
+  .slot-reel {
+    @apply bg-white border-2 border-gray-300 rounded-lg shadow-inner overflow-hidden;
+  }
+  
+  .slot-symbol {
+    @apply w-full h-20 flex items-center justify-center text-4xl font-bold transition-all duration-300;
+  }
+  
+  .spin-button {
+    @apply bg-gradient-to-r from-red-500 to-red-700 hover:from-red-600 hover:to-red-800 text-white font-bold py-4 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .neon-glow {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-500;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+  }
+}
