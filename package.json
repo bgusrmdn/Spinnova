@@ -1,0 +1,17 @@
+{
+  "name": "slot-website",
+  "version": "1.0.0",
+  "description": "Modern slot online website",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "live-server --port=3000"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["slot", "casino", "website", "tailwindcss"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlotMania - Situs Slot Online Terpercaya</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 min-h-screen">
+    <!-- Header -->
+    <header class="bg-black bg-opacity-50 backdrop-blur-lg border-b border-purple-500">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-dice text-3xl text-yellow-400"></i>
+                <h1 class="text-2xl font-bold neon-glow">SlotMania</h1>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-white hover:text-yellow-400 transition-colors">Home</a>
+                <a href="#" class="text-white hover:text-yellow-400 transition-colors">Games</a>
+                <a href="#" class="text-white hover:text-yellow-400 transition-colors">Promosi</a>
+                <a href="#" class="text-white hover:text-yellow-400 transition-colors">Kontak</a>
+            </div>
+            <div class="flex space-x-3">
+                <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-4 py-2 rounded-lg transition-colors">
+                    Daftar
+                </button>
+                <button class="bg-transparent border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black font-bold px-4 py-2 rounded-lg transition-colors">
+                    Masuk
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-12 text-center">
+        <h2 class="text-5xl md:text-7xl font-bold mb-6 neon-glow animate-pulse-fast">
+            SLOT ONLINE TERPERCAYA
+        </h2>
+        <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            Rasakan sensasi bermain slot online dengan grafik HD, bonus melimpah, dan jackpot fantastis!
+        </p>
+        
+        <!-- Slot Machine Demo -->
+        <div class="slot-machine max-w-md mx-auto p-8 mb-8">
+            <div class="text-center mb-4">
+                <h3 class="text-2xl font-bold text-yellow-900">DEMO SLOT</h3>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-4 mb-6">
+                <div class="slot-reel">
+                    <div id="reel1" class="slot-symbol bg-gradient-to-b from-red-400 to-red-600 text-white">
+                        🍒
+                    </div>
+                </div>
+                <div class="slot-reel">
+                    <div id="reel2" class="slot-symbol bg-gradient-to-b from-blue-400 to-blue-600 text-white">
+                        🍋
+                    </div>
+                </div>
+                <div class="slot-reel">
+                    <div id="reel3" class="slot-symbol bg-gradient-to-b from-green-400 to-green-600 text-white">
+                        🔔
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mb-4">
+                <div class="text-2xl font-bold text-yellow-900">Credits: <span id="credits">1000</span></div>
+                <div class="text-lg text-yellow-800">Bet: <span id="bet">10</span></div>
+            </div>
+            
+            <button id="spinBtn" class="spin-button w-full">
+                <i class="fas fa-play mr-2"></i>SPIN
+            </button>
+        </div>
+        
+        <div class="flex justify-center space-x-4">
+            <button class="bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-all">
+                <i class="fas fa-gift mr-2"></i>Claim Bonus
+            </button>
+            <button class="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-all">
+                <i class="fas fa-crown mr-2"></i>VIP Program
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-black bg-opacity-30 py-16">
+        <div class="container mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center mb-12 neon-glow">Mengapa Pilih SlotMania?</h3>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-b from-purple-800 to-purple-900 p-6 rounded-xl border border-purple-500 text-center">
+                    <i class="fas fa-shield-alt text-4xl text-green-400 mb-4"></i>
+                    <h4 class="text-xl font-bold text-white mb-2">100% Aman</h4>
+                    <p class="text-gray-300">Keamanan data dan transaksi terjamin dengan enkripsi SSL</p>
+                </div>
+                
+                <div class="bg-gradient-to-b from-blue-800 to-blue-900 p-6 rounded-xl border border-blue-500 text-center">
+                    <i class="fas fa-money-bill-wave text-4xl text-yellow-400 mb-4"></i>
+                    <h4 class="text-xl font-bold text-white mb-2">Jackpot Besar</h4>
+                    <p class="text-gray-300">Kesempatan memenangkan jackpot hingga miliaran rupiah</p>
+                </div>
+                
+                <div class="bg-gradient-to-b from-green-800 to-green-900 p-6 rounded-xl border border-green-500 text-center">
+                    <i class="fas fa-headset text-4xl text-blue-400 mb-4"></i>
+                    <h4 class="text-xl font-bold text-white mb-2">Support 24/7</h4>
+                    <p class="text-gray-300">Customer service siap membantu Anda kapan saja</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Gallery -->
+    <section class="container mx-auto px-4 py-16">
+        <h3 class="text-4xl font-bold text-center mb-12 neon-glow">Game Populer</h3>
+        
+        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl overflow-hidden shadow-xl hover:transform hover:scale-105 transition-all">
+                <div class="h-48 bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center">
+                    <span class="text-6xl">🍒</span>
+                </div>
+                <div class="p-4">
+                    <h5 class="text-white font-bold">Cherry Blast</h5>
+                    <p class="text-gray-400 text-sm">RTP: 96.5%</p>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl overflow-hidden shadow-xl hover:transform hover:scale-105 transition-all">
+                <div class="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
+                    <span class="text-6xl">💎</span>
+                </div>
+                <div class="p-4">
+                    <h5 class="text-white font-bold">Diamond Strike</h5>
+                    <p class="text-gray-400 text-sm">RTP: 97.2%</p>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl overflow-hidden shadow-xl hover:transform hover:scale-105 transition-all">
+                <div class="h-48 bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center">
+                    <span class="text-6xl">👑</span>
+                </div>
+                <div class="p-4">
+                    <h5 class="text-white font-bold">Royal Fortune</h5>
+                    <p class="text-gray-400 text-sm">RTP: 96.8%</p>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl overflow-hidden shadow-xl hover:transform hover:scale-105 transition-all">
+                <div class="h-48 bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center">
+                    <span class="text-6xl">🍀</span>
+                </div>
+                <div class="p-4">
+                    <h5 class="text-white font-bold">Lucky Clover</h5>
+                    <p class="text-gray-400 text-sm">RTP: 95.9%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-80 py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center items-center space-x-2 mb-4">
+                <i class="fas fa-dice text-2xl text-yellow-400"></i>
+                <span class="text-xl font-bold neon-glow">SlotMania</span>
+            </div>
+            <p class="text-gray-400 mb-4">Situs slot online terpercaya #1 di Indonesia</p>
+            <div class="flex justify-center space-x-6 text-gray-400">
+                <a href="#" class="hover:text-yellow-400 transition-colors">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="#" class="hover:text-yellow-400 transition-colors">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                <a href="#" class="hover:text-yellow-400 transition-colors">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="#" class="hover:text-yellow-400 transition-colors">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                </a>
+            </div>
+            <div class="mt-6 pt-6 border-t border-gray-700 text-gray-500 text-sm">
+                <p>&copy; 2024 SlotMania. Semua hak dilindungi. Bermain dengan bijak.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/slot.js"></script>
+</body>
+</html>
